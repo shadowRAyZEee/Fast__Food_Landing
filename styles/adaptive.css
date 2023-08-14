@@ -1,0 +1,190 @@
+@media (max-width: 1100px) {
+    .welcome__desc {
+        opacity: 1;
+    }
+    .food-list .container {
+    justify-content: space-around;
+    gap: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    .order .container {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .order__text {
+        text-align: center;
+    }
+
+    .order .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "nav nav"
+        "contacts socials";
+        justify-items: center;
+        gap: 20px 100px;
+    }
+    .footer__contacts {
+        grid-area: contacts;
+        justify-self: end;
+    }
+
+    .footer__nav {
+        grid-area: nav;
+    }
+
+    .footer__social {
+        grid-area: socials;
+        align-self: center;
+        justify-self: start;
+    }
+
+    .footer__list {
+        gap: 80px;
+    }
+
+    .feedback {
+        padding-bottom: 100px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .header .btn {
+        display: none;
+    }
+
+    .welcome {
+        padding: 200px 0 100px;
+        min-height: auto;
+    }
+
+    .welcome__text {
+        width: 100%;
+    }
+
+    .welcome__title {
+        font-style: 40px;
+    }
+
+    .welcome__desc {
+        margin: 20px 0;
+    }
+
+    .feedback__img {
+        width: 200px;
+    }
+
+    .download .container {
+        justify-content: center;
+    }
+
+    .download__title {
+        font-style: 30px;
+    }
+
+    .product {
+        padding: 60px 0 100px;
+    }
+
+    .welcome__desc {
+        margin: 20px 0;
+    }
+
+    .product__card {
+        width: 100%;
+        padding-left: 50%;
+    }
+    
+    .product__card:nth-child(even) {
+        padding-right: 50%;
+    }
+    .welcome-innter__wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+.product__card {
+    width: 100%;
+    padding-left: 50%;
+}
+
+.product__card:nth-child(even) {
+    padding-right: 50%;
+}
+
+.welcome-innter__wrapper {
+    width: 100%;
+}
+}
+
+@media (max-width: 500px) {
+    .header .container {
+        flex-direction: column;
+        align-items: start;
+        gap: 14px;
+    } 
+    .header__list {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .welcome {
+        margin-top: -240px;
+        padding-top: 280px;
+        padding-bottom: 80px;
+    }
+    .welcome__desc {
+        font-size: 12px;
+    }
+    .welcome__title {
+        font-size: 24px;
+    }
+    .welcome__subtitle {
+        font-size: 30px;
+        display: block;
+    }
+    .food-list .order{
+        padding: 50px 0;
+    }
+    .order__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .order__image {
+        width: 100%;
+    }
+    .welcome-innter__wrapper {
+        width: 100%;
+    }
+    .feedback__image {
+        width: 150px;
+    }
+    .feedback .container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .header .container {
+        flex-direction: column;
+        align-items: start;
+        gap: 14px;
+    }
+    .product .container {
+        margin-top: 40px;
+    }
+}
+
